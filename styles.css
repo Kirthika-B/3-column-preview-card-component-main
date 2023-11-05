@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@1,900&family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@1,900&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+.container {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10px;
+}
+.first_container {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 6px 6px 0 0;
+}
+.sec_container {
+  background-color: hsl(184, 100%, 22%);
+}
+.Third_container {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 6px 6px;
+}
+.first_container,
+.sec_container,
+.Third_container {
+  text-align: left;
+  padding: 38px;
+  justify-content: space-between;
+}
+.sedans_img img,
+.SUVs_img img,
+.Luxury_img img {
+  width: 28%;
+  margin-bottom: 25px;
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.7);
+  margin-bottom: 25px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.8;
+}
+h3 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsla(0, 0%, 95%, 0.9);
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+button {
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  border: 2px solid hsla(0, 0%, 95%, 0.6);
+  color: hsl(0, 0%, 95%);
+}
+.Learn_More_first {
+  color: hsl(31, 77%, 52%);
+}
+.Learn_More_sec {
+  color: hsl(184, 100%, 22%);
+}
+.Learn_More_third {
+  color: hsl(179, 100%, 13%);
+}
+button:hover {
+  cursor: pointer;
+  color: hsla(0, 0%, 95%, 0.9);
+}
+
+.Learn_More_first:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+.Learn_More_sec:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+.Learn_More_third:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+@media only screen and (min-width: 650px) {
+  .container {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+  }
+  .first_container {
+    border-radius: 6px 0px 0px 6px;
+  }
+
+  .Third_container {
+    border-radius: 0px 6px 6px 0px;
+  }
+  p {
+    margin-bottom: 5em;
+  }
+}
